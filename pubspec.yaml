@@ -1,0 +1,47 @@
+name: uretim_planlama
+description: "Üretim Tezgahı"
+
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.4.3 <4.0.0'
+
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  cupertino_icons: ^1.0.6
+
+  #ui
+  carousel_slider: ^5.0.0
+  blur: ^4.0.0
+  swipe: ^0.0.1
+
+  #State Management
+  bloc: ^8.1.4
+  flutter_bloc: ^8.1.6
+
+  #utils
+  intl: ^0.19.0
+
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: ^3.0.0
+
+
+flutter:
+
+
+  uses-material-design: true
+
+  assets:
+    - assets/images/
+
